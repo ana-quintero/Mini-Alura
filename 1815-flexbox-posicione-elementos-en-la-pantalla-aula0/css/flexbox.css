@@ -16,7 +16,7 @@
 .rodapePrincipal-patrocinadores-list{
     display: flex;
     align-items: center; /* Elementos centrados verticalmente*/ 
-    justify-content: space-around;
+    justify-content: space-around;/*Espacio al rededor de los elementos */ 
     width: 70%;
     margin-right: 5%;
 }
@@ -28,4 +28,11 @@
 .rodapePrincipal-contatoForm-fieldset{
     display: flex;
 
+}
+
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column;/* Le indicamos al navegador que ponga los elementos verticalmente*/
+    height: 250px;
+    flex-wrap: wrap;/*Cuando llega a 250px continua en la siguiente columna*/
 }
