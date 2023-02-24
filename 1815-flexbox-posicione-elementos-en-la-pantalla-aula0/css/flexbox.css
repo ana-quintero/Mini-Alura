@@ -47,7 +47,23 @@
     width: 23%;
 }
 
+.videoSobre .container{
+    display: flex;
+}
 
+.videoSobre-sobre{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.videoSobre-video{
+    flex-grow: 2;
+}
+
+.videoSobre-sobre-list{
+    flex-grow: 2;
+}
 
 /* ---- Responsive ---- */
 
@@ -92,6 +108,10 @@
 
     .rodapePrincipal-contatoForm-fieldset{
         justify-content: center;
+    }
+
+    .headerPrincipal-nav-link-app{
+        order: -1;
     }
 
 }
